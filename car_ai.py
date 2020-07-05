@@ -56,7 +56,7 @@ class Car:
 
     def update(self, map):
         # check speed
-        self.speed = 5
+        self.speed = 15
 
         # check position
         self.rotate_surface = self.rot_center(self.surface, self.angle)
